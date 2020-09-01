@@ -29,3 +29,4 @@ void dijkstra(vector<vector<pll > > &adj,int src,int dest){
     return dist[dest];
 }
 //complexity-O(V+Elog(V))
+//dijkstra can be used for both directed and undirected graph
