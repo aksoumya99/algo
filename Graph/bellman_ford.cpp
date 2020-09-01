@@ -25,3 +25,4 @@ ll bellman_ford(vector<pair<ll,pll > > &edges,ll dest,ll src,ll v,ll e){
     return dist[dest];
 }
 //Complexity-O(VE)
+//Can be used for both directed and undirected graph
