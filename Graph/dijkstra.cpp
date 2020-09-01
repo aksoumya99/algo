@@ -12,7 +12,7 @@ void dijkstra(vector<vector<pll > > &adj,int src,int dest){
     while(!pq.empty()){
         auto pr=pq.top();
         pq.pop();
-        ll u=pq.fi;
+        ll u=pq.se;
         //if(u==dest){return dist[dest];}
         if(vis[u]){
             continue;
