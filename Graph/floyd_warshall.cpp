@@ -6,3 +6,4 @@ for(int k = 1; k <= n; k++){
     }
 }
 //complexity- O(V^3)
+//Can be used for both directed and undirected graph
