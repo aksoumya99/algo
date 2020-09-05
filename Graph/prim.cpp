@@ -26,5 +26,5 @@ void prim(vector<vector<pll > > &adj){
     }
     return ans;
 }
-//If you want the mst edges you will need two more array, parent array and key array.
+//If you want the mst edges you will need two more array, parent array and key array.(The key point is doubtful)
 //Complexity-O(V+E)logV
